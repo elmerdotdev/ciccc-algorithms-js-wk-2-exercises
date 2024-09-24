@@ -25,7 +25,6 @@ Would be represented in JavaScript like this:
 ]
 Our first challenge will be to write a function that generates a chess board like this. We will then write a function to detect weather or not the two queens are positioned so that they attack each other.
 
-
 let whiteQueen = [0, 5];
 let blackQueen = [5, 0];
 let generatedBoard = generateBoard(whiteQueen, blackQueen);
@@ -43,6 +42,7 @@ Expected Output
   [0, 0, 0, 0, 0, 0, 0, 0]
 ]
 true
+
 Input
 let whiteQueen = [0, 0];
 let blackQueen = [5, 7];
@@ -61,6 +61,7 @@ Expected Output
   [0, 0, 0, 0, 0, 0, 0, 0]
 ]
 false
+
 Instruction
 Create a function generateBoard which will return a nested array representing the board, containing the location of two queens.
 Create a function called queenThreat that will indicate whether or not the two queens are positioned so that they attack each other.
